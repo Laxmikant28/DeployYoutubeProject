@@ -3,7 +3,7 @@
       "local_server": "False",
       "local_url": "mysql://root:@localhost/youtube_comment",
       "prod_url": "postgresql://root:UNUkuvSaidYWiqKkJHSPn2L3N1Lrlx2b@dpg-d119fi3e5dus738i42fg-a.oregon-postgres.render.com/youtube_comment",
-      "google_key" :"AIzaSyC1rNhWH4UwTFoqZ8QrzYf5brG9kR9N2Qg"
+      "google_key" :"AIzaSyAmfL4rnIDzxvijtzfNYuiPAU4KfLmHvzc"
 
     }
   }

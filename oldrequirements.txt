@@ -1,0 +1,6 @@
+Flask
+Flask-SQLAlchemy
+psycopg2
+google-generativeai
+numpy==1.21.2
+scikit-learn==1.0.2

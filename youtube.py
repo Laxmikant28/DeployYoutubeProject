@@ -9,7 +9,7 @@ with open("config.json", "r") as c:
     params = json.load(c)["params"]
 
 vector = pickle.load(open('vector.pkl', 'rb'))  # text to vector conversion
-model = pickle.load(open('model.pkl', 'rb'))    # sentiment classification model
+model = genai.GenerativeModel('gemini-2.0-flash')    # sentiment classification model
 google_key = params['google_key']
 genai.configure(api_key = google_key)
 gpt_model = pickle.load(open("gptimp.pkl","rb")) # importent suggestion modle
